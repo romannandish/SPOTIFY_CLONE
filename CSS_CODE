@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav ul{
+    display: flex;
+    background-color:black;
+    color: white;
+    align-items: center;
+    list-style: none;
+   height:65px;
+   
+}
+
+.brand img{
+    height:40px;
+}
+
+
+
+.brand {
+    display: flex;
+    align-items: center;
+    margin: 0px 25px;
+    font-size:1.3rem;
+    
+
+}
+
+ul li{
+    padding: 0px 25px;
+    font-size:0.85rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color:black;
+    color:white;
+    margin:20px auto;
+    padding:16px;
+    width:65% ;
+    border-radius:0.85rem;
+    background-image: url('bg.jpg');
+    background-size:cover;
+}
+
+h1{
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bottom{
+    position:sticky;
+    margin-bottom:0;
+    background-color:black;
+    height:130px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    flex-direction:column;
+}
+
+
+ .bottom input{
+   width: 80vw;
+}
+
+.icons{
+    margin-top:1rem;
+   font-size: 2rem;
+}
+
+.songList{
+    margin:20px;
+}
+
+.songItem{ 
+    display:flex;
+    height: 40px;
+    width:600px;
+    background-color:white;
+    color:black;
+    justify-content:space-between;
+    align-items:center;
+    border-radius: 34px;
+    margin-top:15px;
+    
+}
+
+.songItem span{
+   font-family:'Courier New', Courier, monospace;
+}
+
+.songItem img{
+    height:2.2rem;
+    border-radius:34px;
+    margin-left:10px;
+
+}
+
+.timeStamp{
+    padding-right:10px;
+}
+
+.songItem i{
+    padding-right:10px;
+}
+
+.songItemContainer{
+    margin-top:34px;
+}
+
+.songItem:hover    {
+    background-color:rgb(38, 0, 255);
+}
+
+
+.songItem:active{
+    background-color:red;
+}
